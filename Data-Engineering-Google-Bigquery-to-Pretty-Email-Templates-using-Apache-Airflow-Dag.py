@@ -11,7 +11,7 @@ schedule_interval_dag = timedelta(days=1)
 
 # query to extract data
 query = """
-SELECT * from sample_table where date = $EXECUITON_DATE
+SELECT * from sample_table where date = $EXECUTION_DATE
         """
 #receivers
 receivers = 'youremail@gmail.com'
