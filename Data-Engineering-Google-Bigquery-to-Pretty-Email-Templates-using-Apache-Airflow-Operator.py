@@ -26,7 +26,7 @@ class BigqueryToEmail(BaseOperator):
 		table_theme,
 		*args, **kwargs):
 
-		super(SendReviewStats, self).__init__(*args, **kwargs)
+		super(BigqueryToEmail, self).__init__(*args, **kwargs)
 		self.query = query
 		self.receivers = receivers
 		self.table_theme = table_theme
